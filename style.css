@@ -1,0 +1,73 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  display: flex;
+  gap: 1rem;
+}
+
+img {
+  width: 15%;
+}
+input,
+.btn {
+  margin-top: 1rem;
+}
+
+.item-input {
+  padding: 0.5rem;
+  min-width: 100%;
+  border: solid 1px;
+  border-radius: 3px;
+}
+
+.filter-items {
+  padding: 0.3rem;
+  min-width: 100%;
+  border: none;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.wrapper {
+  padding: 1rem 0.5rem;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 0.6rem 0.5rem;
+  margin-top: 1.5rem;
+  border-radius: 5px;
+}
+
+.btn1,
+.i {
+  border-style: none;
+  color: red;
+  background-color: white;
+}
+
+.clearbtn {
+  border: solid 1px;
+  min-width: 100%;
+  padding: 0.6rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
